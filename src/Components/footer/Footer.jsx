@@ -10,19 +10,19 @@ const Footer = () => {
 
             <ul className="footer__list">
             <li>
-                    <a href="#home" className="footer__link">Home</a>
+                    <a href="#home" className="footer__link">Home</a>||
                 </li>
                 <li>
-                    <a href="#skills" className="footer__link">Skills</a>
+                    <a href="#skills" className="footer__link">Skills</a>||
                 </li>
                 <li>
-                    <a href="#about" className="footer__link">About</a>
+                    <a href="#about" className="footer__link">About</a>||
                 </li>
                 <li>
-                    <a href="#services" className="footer__link">Services</a>
+                    <a href="#services" className="footer__link">Services</a>||
                 </li>
                 <li>
-                    <a href="#testimonial" className="footer__link">Testimonials</a>
+                    <a href="#testimonials" className="footer__link">Testimonials</a>||
                 </li>
             </ul>
             
@@ -40,7 +40,7 @@ const Footer = () => {
         </a>
             </div>
 
-            <span className="footer__copy">Made from the Heart, Peace Inc. Lagos.
+            <span className="footer__copy"><strong>Made</strong> from the Heart, <strong>Peace Inc.</strong> Lagos.
             </span>
         </div>
       </footer>
