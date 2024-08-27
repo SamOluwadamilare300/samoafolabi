@@ -1,17 +1,20 @@
 
+
 .services__container{
   grid-template-columns: repeat(3, 270px);
   justify-content: center;
   column-gap: 1.8rem;
+  
 }
 
 .services__content{
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: var(--container-color);
+    background-color: rgb(247, 245, 241);
     padding: 6rem 0 2rem 2.5rem;
     font-family: "Poppins",sans-serif;
-
+    border-radius: 15px;
+    
 }
 
 .services__icon{

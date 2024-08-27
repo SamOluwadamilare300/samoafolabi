@@ -3,12 +3,16 @@
     justify-content: center;
     column-gap: 6rem;
     padding-bottom: 3rem;
+    
 }
+
+
 
 .contact__title{
     text-align: center;
-    font-size: var(--h3-font-size);
+    font-size: var(--h2-font-size);
     font-weight: var(--mb-1-5);
+     padding: 20px;
 
 }
 
@@ -19,7 +23,7 @@
 }
 
 .contact__card{
-    background-color: var(--container-color);
+    background-color: rgb(247, 245, 241);
     border: 1px solid rgba(0, 0, 0, 0.1) ;
     padding: 1rem;
     border-radius: 0.75rem;
@@ -118,9 +122,9 @@
 
 .contact__form-tag{
   position: absolute;
-  top: -0.45rem;
+  top: -0.85rem;
   left: 1.25rem;
-  font-size: var(--smaller-font-size);
+  font-size: var(--small-font-size);
   padding: 0.25rem;
   background-color: white;
   z-index: 10;

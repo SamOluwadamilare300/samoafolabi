@@ -31,15 +31,16 @@ const Contact = () => {
 
             <div className="contact__container container grid">
                 <div className="contact__content">
-                    <h3 className="contact__title">Hire Me!</h3>
+                    <h3 className="contact__title"></h3>
 
                     <div className="contact__info">
 
                         <div className="contact__card">
                             <i className="bx bx contact__card-icon"></i>
 
-                            <h3 className="contact__card-title">Email</h3>
-                            <span className="contact__card-data">damilarea71@gmail.com</span>
+                            <i className="bx bx-envelope contact__card-icon"></i>
+                             <h3 className="contact__card-title"></h3>
+                            <span className="contact__card-data"></span>
 
                             <a href="mailto:examplemail@gmail.com" className="contact__button">Write me{" "}
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
@@ -47,19 +48,18 @@ const Contact = () => {
 
                         <div className="contact__card">
                             <i className="bx bxl-whatsapp contact__card-icon"></i>
-
-                            <h3 className="contact__card-title">WhatsApp</h3>
-                            <span className="contact__card-data">+234 814 495 4091</span>
-                            <a href="https://api.whatsapp.com/send?phone=2348144954091&text=Hello,%20more%20information!" className="contact__button" target="_blank"
-                                rel="noopener noreferrer">Chat me{" "} <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <h3 className="contact__card-title"></h3>
+                            <span className="contact__card-data"></span>
+                            <a href="https://api.whatsapp.com/send?phone=2348144954091&text=Hello,%20I'm%20interested%20in%20your%20tech%20services!" className="contact__button" target="_blank" rel="noopener noreferrer">Chat me{" "} 
+                            <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
 
 
                         <div className="contact__card">
                             <i className="bx bx contact__card-icon"></i>
-
-                            <h3 className="contact__card-title">LinkedIn</h3>
-                            <span className="contact__card-data">Sam O. Afolabi</span>
+                            <i className="bx bxl-linkedin contact__card-icon"></i>
+                            <h3 className="contact__card-title"></h3>
+                            <span className="contact__card-data"></span>
 
                             <a href="https://www.linkedin.com/" target='https://www.linkedin.com/in/sam-o-afolabi-179309241/' className="contact__button">
                                 Connect with me{" "}
